@@ -14,6 +14,6 @@
  *= require_self
  */
 
-input, button, select, textarea {
+input, button, select, textarea, .panel-body, .panel-body p {
 	color: #555;
 }
