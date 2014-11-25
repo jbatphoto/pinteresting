@@ -4,13 +4,19 @@ $text-color:  white;
 $jumbotron-bg: #34495e;
 $navbar-height: 45px;
 
+input, button, select, textarea {
+		color: #2c3e50;
+}
+
 
 .center {
     text-align: center;
 }
 
 .navbar-brand {
-     font-weight: bold;
+     font-weight: normal;
+		letter-spacing: 2px;
+    text-transform: uppercase;
 }
 
 
