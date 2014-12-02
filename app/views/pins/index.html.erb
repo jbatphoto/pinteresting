@@ -12,11 +12,12 @@
   <tbody>
     <% @pins.each do |pin| %>
       <tr>
+				<td><%= image_tag pin.image.url(:medium) %></td>
         <td><%= link_to pin.description, pin %></td>
 				<td><%= pin.user.email if pin.user %></td>
 				<td><% if pin.user == current_user %></td>
 				<td><%= link_to 'Edit', edit_pin_path(pin) %></td>
-				<td><%= link_to 'Destroy', pin, method: :delete, data: { confirm: 'Are you sure?' } %></td>
+				<td><%= link_to 'Delete', pin, method: :delete, data: { confirm: 'Are you sure?' } %></td>
 				<% end %>
       </tr>
     <% end %>
