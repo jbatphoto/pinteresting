@@ -12,6 +12,7 @@
  *
  *= require_tree .
  *= require_self
+ *= require 'masonry/transitions'
  */
 
 input, button, select, textarea, .panel-body, .panel-body p {
