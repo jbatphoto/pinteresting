@@ -15,6 +15,11 @@
  *= require 'masonry/transitions'
  */
 
+body {
+	font-family: helvetica, arial, sans-serif;
+	font-size: 12px;
+}
+
 input, button, select, textarea, .panel-body, .panel-body p {
 	color: #555;
 }
